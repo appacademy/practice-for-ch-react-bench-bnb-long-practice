@@ -117,7 +117,7 @@ your jsx even more. To do this, create a __Forms__ folder in __src/components__
 and add an __index.js__ file inside. Create and export a functional component
 for each of these three elements. The `Input` and `TextArea` components should
 receive as props an object consisting of the usually assigned attributes plus a
-`label` and return a labeled <input> or <textarea> element.
+`label` and return a labeled `input` or `textarea` element.
 
 As an example, your `Input` component could look like this:
 
