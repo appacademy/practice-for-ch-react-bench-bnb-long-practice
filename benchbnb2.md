@@ -9,11 +9,11 @@ your map (Phase 7), add features like filters (Phase 8) and photos (Phase 9),
 and then polish your app with little touches to enhance the user experience
 (Phase 10).
 
-## Phase 7: Bench Map
+## Phase 7: Bench map
 
 It's time to create the map!
 
-### Creating Bench Map Component
+### Creating bench map component
 
 Begin by creating a __components/BenchMap__ directory containing an index and
 CSS file. The index file should define two functional components: a
@@ -131,7 +131,7 @@ Also render a `BenchMap` on the `BenchShowPage`. Pass in the following props:
 * `mapOptions`, which contains a `center` property using the bench's `lat` and
   `lng`
 
-### Map Bounds
+### Map bounds
 
 Instead of rendering every bench in the database on the bench index page (with
 some markers off screen), only render those in the current map view. To complete
@@ -164,7 +164,7 @@ In the effect that dispatches `fetchBenches`, add `bounds` as a dependency and
 pass it in the `filters` object argument to `fetchBenches`. Then, whenever
 `bounds` changes, new benches will be fetched.
 
-### Customizing Markers
+### Customizing markers
 
 Finally, customize the markers so they show the price of their respective bench.
 See [here][gmaps-marker-options] for `label` and `icon` properties that can be
