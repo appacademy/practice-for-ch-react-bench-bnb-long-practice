@@ -63,7 +63,7 @@ Within `BenchListItem`, render a `div`, within which you should render the
 (e.g., the `title` might be in a heading element).
 
 Clicking the outer `div` should navigate to the bench show page:
-`/benches/[BENCH_ID]`. Use the [`push`] method on the [`history`] object
+`/benches/[BENCH_ID]`. Use the `push` method on the [`history`] object
 returned by [`useHistory`] to imperatively navigate to this frontend route.
 
 Let's review what you've implemented thus far for the `BenchIndexPage`:

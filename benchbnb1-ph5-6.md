@@ -255,7 +255,7 @@ Once you get the reviews up and running, **commit your code.**
 
 Congratulations, you've finished Part 1!
 
-[`wrap-parameters`]: https://api.rubyonrails.org/v7.0.3/classes/ActionController/ParamsWrapper.html
+[`wrap_parameters`]: https://api.rubyonrails.org/v7.0.3/classes/ActionController/ParamsWrapper.html
 [validation]: https://guides.rubyonrails.org/active_record_validations.html#custom-methods
 [includes]: https://guides.rubyonrails.org/active_record_querying.html#includes
 [Font Awesome icon]: https://fontawesome.com/icons?d=gallery&m=free
