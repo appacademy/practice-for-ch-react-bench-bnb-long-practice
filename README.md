@@ -124,18 +124,42 @@ test:
 
 production:
   <<: *default
-  database: bench_bnb_production
-  username: bench_bnb
-  password: <%= ENV["BENCH_BNB_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
 ```
+
+> Note: If you didn't get to the Authenticate Me deployment instructions (Part
+> 3), `production` likely has keys of `database`, `username`, and `password`
+> instead of `url`, with each key having a value involving `authenticate_me`.
+> Simply replace those three keys with the single `url` key-value pair shown
+> above.
+
+If you have a __render.yaml__ file--added in the deployment
+instructions--replace the four instances of `authenticate_me` with `bench_bnb`.
+(If you do not have this file, don't worry about it.)
 
 That's it! Go ahead and run `rails db:setup` to set up a new database for
 BenchBnB.
 
 ### Renaming the Frontend
 
-Head to __frontend/package.json__ and change the value at the key of `"name"` to
-`bench_bnb_frontend`.
+First, open the __package.json__ in your root directory. Change the value at the
+key of `"name"` to `bench_bnb` and the `"description"` to something appropriate.
+
+```json
+// package.json
+
+{
+  "name": "bench_bnb",
+  // ...
+  "description": "Everyone's favorite app for finding and rating benches!",
+  // ...
+}
+```
+
+Run `npm install`.
+
+Then head to __frontend/package.json__ and change the value at the key of
+`"name"` to `bench_bnb_frontend`.
 
 ```json
 // frontend/package.json
@@ -146,7 +170,7 @@ Head to __frontend/package.json__ and change the value at the key of `"name"` to
 }
 ```
 
-Run `npm install`.
+Run `npm install` in the __frontend__ directory.
 
 Next, head to __frontend/public/index.html__ and change the title of your
 document to `BenchBnB`:
