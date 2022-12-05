@@ -1,7 +1,11 @@
 # BenchBnB, Phases 1-2
 
+[Live Demo]
+
 In Phases 1-2, you will create your Bench model on the backend (Phase 1) and set
 up your frontend to handle benches in the Redux store (Phase 2).
+
+[Live Demo]: https://aa-bench-bnb.herokuapp.com/
 
 ## Phase 1: Bench backend
 

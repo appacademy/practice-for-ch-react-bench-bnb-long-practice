@@ -1,7 +1,11 @@
 # BenchBnB, Phases 3-4
 
+[Live Demo]
+
 It's time to build (Phase 3) and style (Phase 4) components that render your
 bench data!
+
+[Live Demo]: https://aa-bench-bnb.herokuapp.com/
 
 ## Phase 3: Bench `index` and `show` pages
 

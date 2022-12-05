@@ -1,8 +1,12 @@
 # BenchBnB, Phases 5-6
 
+[Live Demo]
+
 In Phases 5, you will create a "New Bench" form and then refactor it with custom
 hooks and components to DRY up your code. Phase 6 then consists of implementing
 Reviews.
+
+[Live Demo]: https://aa-bench-bnb.herokuapp.com/
 
 ## Phase 5: Create a "New Bench" page
 

@@ -1,5 +1,7 @@
 # BenchBnB: Part 1
 
+[Live Demo]
+
 In this two-day project, you will be building BenchBnB, a full stack application
 inspired by AirBnB. Instead of vacation rentals, though, your app will show off
 all the hottest bench locations in cities around the world!
@@ -22,6 +24,8 @@ That said, don't hesitate to ask an instructor for guidance if you're ever
 unsure of your approach or of where to start. You're not alone in this!
 
 Good luck!
+
+[Live Demo]: https://aa-bench-bnb.herokuapp.com/
 
 ## Phase 0: Setup
 

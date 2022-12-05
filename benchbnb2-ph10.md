@@ -1,8 +1,12 @@
 # BenchBnB, Phase 10: Enhancing The User Experience
 
+[Live Demo]
+
 In this final Phase, you will enhance the user experience by using a modal for
 log in / sign up to preserve context and by highlighting a bench list item when
 a user hovers over its marker.
+
+[Live Demo]: https://aa-bench-bnb.herokuapp.com/
 
 ## Require current user with modal
 

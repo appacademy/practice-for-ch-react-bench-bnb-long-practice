@@ -1,7 +1,11 @@
 # BenchBnB, Phases 8-9
 
+[Live Demo]
+
 In Phases 8-9, you will add filters (Phase 8) and photos (Phase 9) to your
 benches.
+
+[Live Demo]: https://aa-bench-bnb.herokuapp.com/
 
 ## Phase 8: Bench index filters
 
