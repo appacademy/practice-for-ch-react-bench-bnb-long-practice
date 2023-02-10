@@ -238,7 +238,7 @@ uploaded to that input) under a variable named `file`. To generate a URL for the
 preview, create a [`FileReader`] instance, then invoke [`readAsDataURL`] with
 `file` passed as the argument. This will trigger an async action. Define an
 `onload` property on the `FileReader` instance that points to a callback that
-will run after `readerAsDataURL` completes. Set the `photoFile` state to the
+will run after `readAsDataURL` completes. Set the `photoFile` state to the
 `file` and the `photoUrl` state to `fileReader.result` (i.e., the result of
 `readAsDataURL`).
 
